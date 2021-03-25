@@ -1,6 +1,8 @@
-const express = require('express')
-const products = require('./data/products')
-const dotenv = require('dotenv')
+//const express = require('express')  //this is common js syntax
+import express from 'express'
+import products from './data/products.js' //files must have .js for es modules syntax
+import dotenv from 'dotenv'
+
 
 dotenv.config()
 

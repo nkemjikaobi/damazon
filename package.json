@@ -1,0 +1,23 @@
+{
+  "name": "damazon",
+  "version": "1.0.0",
+  "description": "An Ecommerce store built with React, Redux, Express & MongoDB In development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkemjikaobi/damazon.git"
+  },
+  "keywords": [],
+  "author": "Derick Obi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkemjikaobi/damazon/issues"
+  },
+  "homepage": "https://github.com/nkemjikaobi/damazon#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
